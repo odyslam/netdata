@@ -42,7 +42,7 @@ apache_log:
       observium : 'observium'
 ```
 
-Theodule has preconfigured jobs for nginx, apache and gunicorn on various distros.
+The module has preconfigured jobs for nginx, apache and gunicorn on various distros.
 You can add one such section, for each of your web server log files.
 
 > **Important**<br/>Keep in mind [**netdata**](https://my-netdata.io/) runs as user `netdata`. So, make sure user `netdata` has access to the logs directory and can read the log file.
